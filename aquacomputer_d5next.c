@@ -10,7 +10,7 @@
  * Copyright 2022 Jack Doan <me@jackdoan.com>
  */
 
-
+#include <asm/unaligned.h>
 #include <linux/byteorder/generic.h>
 #include <linux/crc16.h>
 #include <linux/debugfs.h>
@@ -22,7 +22,6 @@
 #include <linux/mutex.h>
 #include <linux/stddef.h>
 #include <linux/seq_file.h>
-#include <asm/unaligned.h>
 
 #define USB_VENDOR_ID_AQUACOMPUTER	0x0c70
 #define USB_PRODUCT_ID_D5NEXT		0xf00e
